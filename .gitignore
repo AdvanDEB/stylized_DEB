@@ -1,6 +1,9 @@
 # DEB library files (too large for version control)
 files/
 
+# Data files (generated, too large for version control)
+data/
+
 # Python cache
 __pycache__/
 *.pyc
@@ -11,6 +14,9 @@ __pycache__/
 venv/
 env/
 
+# Conda
+environment.yml
+
 # IDE
 .vscode/
 .idea/
@@ -20,3 +26,6 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
